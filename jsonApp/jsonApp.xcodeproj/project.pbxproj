@@ -19,6 +19,11 @@
 		6F1EF63529E8966E0088E27D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EF63429E8966E0088E27D /* Home.swift */; };
 		6FE6E98029E99BCF00282E33 /* Modelo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6E97F29E99BCF00282E33 /* Modelo1.swift */; };
 		6FE6E98229E99C2000282E33 /* Modelo1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6E98129E99C2000282E33 /* Modelo1ViewModel.swift */; };
+		6FE99C9829E9ECBA00215103 /* Modelo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99C9729E9ECBA00215103 /* Modelo2.swift */; };
+		6FE99C9A29E9EDE600215103 /* Modelo2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99C9929E9EDE600215103 /* Modelo2ViewModel.swift */; };
+		6FE99C9E29E9F1EC00215103 /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99C9D29E9F1EC00215103 /* Home2.swift */; };
+		6FE99CA029EA051400215103 /* DetalleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99C9F29EA051400215103 /* DetalleView.swift */; };
+		6FE99CA229EA077500215103 /* DetalleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE99CA129EA077500215103 /* DetalleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		6F1EF63429E8966E0088E27D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		6FE6E97F29E99BCF00282E33 /* Modelo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1.swift; sourceTree = "<group>"; };
 		6FE6E98129E99C2000282E33 /* Modelo1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1ViewModel.swift; sourceTree = "<group>"; };
+		6FE99C9729E9ECBA00215103 /* Modelo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo2.swift; sourceTree = "<group>"; };
+		6FE99C9929E9EDE600215103 /* Modelo2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo2ViewModel.swift; sourceTree = "<group>"; };
+		6FE99C9D29E9F1EC00215103 /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
+		6FE99C9F29EA051400215103 /* DetalleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleView.swift; sourceTree = "<group>"; };
+		6FE99CA129EA077500215103 /* DetalleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,7 @@
 			children = (
 				6F1EF63029E87AFC0088E27D /* PostModel.swift */,
 				6FE6E97F29E99BCF00282E33 /* Modelo1.swift */,
+				6FE99C9729E9ECBA00215103 /* Modelo2.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -102,6 +113,8 @@
 			children = (
 				6F1EF63229E896250088E27D /* Login.swift */,
 				6F1EF63429E8966E0088E27D /* Home.swift */,
+				6FE99C9D29E9F1EC00215103 /* Home2.swift */,
+				6FE99C9F29EA051400215103 /* DetalleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +124,8 @@
 			children = (
 				6F1EF62E29E87AE10088E27D /* PostViewModel.swift */,
 				6FE6E98129E99C2000282E33 /* Modelo1ViewModel.swift */,
+				6FE99C9929E9EDE600215103 /* Modelo2ViewModel.swift */,
+				6FE99CA129EA077500215103 /* DetalleViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -189,11 +204,16 @@
 				6F1EF62F29E87AE10088E27D /* PostViewModel.swift in Sources */,
 				6F1EF63129E87AFC0088E27D /* PostModel.swift in Sources */,
 				6F1EF62129E87A560088E27D /* Persistence.swift in Sources */,
+				6FE99C9829E9ECBA00215103 /* Modelo2.swift in Sources */,
 				6F1EF61A29E87A560088E27D /* ContentView.swift in Sources */,
 				6F1EF61829E87A560088E27D /* jsonAppApp.swift in Sources */,
+				6FE99C9A29E9EDE600215103 /* Modelo2ViewModel.swift in Sources */,
 				6F1EF63529E8966E0088E27D /* Home.swift in Sources */,
 				6F1EF62429E87A560088E27D /* jsonApp.xcdatamodeld in Sources */,
+				6FE99CA229EA077500215103 /* DetalleViewModel.swift in Sources */,
 				6FE6E98229E99C2000282E33 /* Modelo1ViewModel.swift in Sources */,
+				6FE99C9E29E9F1EC00215103 /* Home2.swift in Sources */,
+				6FE99CA029EA051400215103 /* DetalleView.swift in Sources */,
 				6FE6E98029E99BCF00282E33 /* Modelo1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

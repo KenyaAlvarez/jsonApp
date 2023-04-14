@@ -19,24 +19,22 @@ struct Home: View {
                 List(json.datosModelo, id:\.id){item in
                     VStack(alignment: .leading){
                         Text(item.name)
-                        Text(item.email)
+                        Text(item.address.geo.lat)
                     }
                 }  .navigationBarTitle("JSON")
                     .navigationBarItems(leading:
-                            Button(action:{
+                                            Button(action:{
                         UserDefaults.standard.removeObject(forKey: "sesion")
                         login.authenticated = 0
-                            }){
-                                Text("Salir")
-                            }
-                            ,trailing:
-                                Button(action:{
-                        //
                     }){
+                        Text("Salir")
+                    }
+                                        ,trailing:
+                                            NavigationLink(destination: Home2()){
                         Text("Siguiente")
-                    })            }
-                        
+                    }
+                    )
+            }
         }
     }
 }
-
