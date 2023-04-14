@@ -17,6 +17,8 @@
 		6F1EF63129E87AFC0088E27D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EF63029E87AFC0088E27D /* PostModel.swift */; };
 		6F1EF63329E896250088E27D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EF63229E896250088E27D /* Login.swift */; };
 		6F1EF63529E8966E0088E27D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EF63429E8966E0088E27D /* Home.swift */; };
+		6FE6E98029E99BCF00282E33 /* Modelo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6E97F29E99BCF00282E33 /* Modelo1.swift */; };
+		6FE6E98229E99C2000282E33 /* Modelo1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6E98129E99C2000282E33 /* Modelo1ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		6F1EF63029E87AFC0088E27D /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		6F1EF63229E896250088E27D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		6F1EF63429E8966E0088E27D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6FE6E97F29E99BCF00282E33 /* Modelo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1.swift; sourceTree = "<group>"; };
+		6FE6E98129E99C2000282E33 /* Modelo1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6F1EF63029E87AFC0088E27D /* PostModel.swift */,
+				6FE6E97F29E99BCF00282E33 /* Modelo1.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				6F1EF62E29E87AE10088E27D /* PostViewModel.swift */,
+				6FE6E98129E99C2000282E33 /* Modelo1ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 				6F1EF61829E87A560088E27D /* jsonAppApp.swift in Sources */,
 				6F1EF63529E8966E0088E27D /* Home.swift in Sources */,
 				6F1EF62429E87A560088E27D /* jsonApp.xcdatamodeld in Sources */,
+				6FE6E98229E99C2000282E33 /* Modelo1ViewModel.swift in Sources */,
+				6FE6E98029E99BCF00282E33 /* Modelo1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
